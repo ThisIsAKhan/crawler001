@@ -130,4 +130,3 @@ if __name__ == '__main__':
     crawler.start()
     log.start(logfile="results.log", loglevel=log.DEBUG, crawler=crawler, logstdout=False)
     reactor.run()
-
